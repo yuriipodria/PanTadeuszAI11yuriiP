@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sir Thaddeus</title>
+</head>
+<body>
+  <nav>
+    <h3>Table of contents</h3>
+
+    <ul>
+      <li><a href="{{url_for('index')}}">Home</a></li>
+      <li><a href="{{url_for('k1')}}">Book 1</a></li>
+      <li><a href="{{url_for('k2')}}">Book 2</a></li>
+      <li><a href="{{url_for('k3')}}">Book 3</a></li>
+      <li><a href="{{url_for('k4')}}">Book 4</a></li>
+      <li><a href="{{url_for('k5')}}">Book 5</a></li>
+      <li><a href="{{url_for('k6')}}">Book 6</a></li>
+      <li><a href="{{url_for('k7')}}">Book 7</a></li>
+      <li><a href="{{url_for('k8')}}">Book 8</a></li>
+      <li><a href="{{url_for('k9')}}">Book 9</a></li>
+      <li><a href="{{url_for('k10')}}">Book 10</a></li>
+      <li><a href="{{url_for('k11')}}">Book 11</a></li>
+      <li><a href="{{url_for('k12')}}">Book 12</a></li>
+    </ul>
+  <nav>
+
+  {% block content %}
+    
+  {% endblock %}
+
+</body>
+</html>
